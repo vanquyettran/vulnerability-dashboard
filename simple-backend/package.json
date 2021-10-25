@@ -1,0 +1,21 @@
+{
+  "name": "simple-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Benjamin White, Stefan Streichsbier",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "joi": "^13.1.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  }
+}
